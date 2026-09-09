@@ -57,8 +57,7 @@ El modelo trabaja con datos mensuales y genera un pronóstico de un periodo mens
 
 Para la planeación de inventarios, este valor se convierte a una demanda diaria proyectada:
 
-```text
-Demanda diaria proyectada = Pronóstico 30 días / 30
+# Demanda diaria proyectada = Pronóstico 30 días / 30
 
 | Modelo                        |     MAE ↓ |     RMSE ↓ |     MAPE ↓ |       R² ↑ |
 | ----------------------------- | --------: | ---------: | ---------: | ---------: |
@@ -72,7 +71,7 @@ Demanda diaria proyectada = Pronóstico 30 días / 30
 | ARIMA(1,1,1)                  |     84.52 |     161.64 |     22.10% |     0.8298 |
 
 
-Consideración temporal del escenario
+# Consideración temporal del escenario
 
 El escenario de planeación se construye utilizando julio de 2025 como periodo de decisión y agosto de 2025 como periodo objetivo del pronóstico.
 
@@ -82,7 +81,7 @@ La fecha original se conserva y se genera una fecha ajustada desplazada un mes p
 
 Este ajuste es exclusivamente una transformación del escenario de análisis y no una modificación de los datos originales.
 
-Aplicación
+# Aplicación
 
 La herramienta fue desarrollada en Streamlit y permite:
 
