@@ -1,0 +1,7 @@
+__pycache__/ 
+*.pyc 
+.ipynb_checkpoints/ 
+.vscode/ 
+.DS_Store 
+notebooks/ 
+data/Demand_Supply_Planning_train.csv 
